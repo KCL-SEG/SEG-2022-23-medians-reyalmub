@@ -8,7 +8,7 @@ while True:
         numbers.sort()
 
         if len(numbers) % 2 == 0:
-            print(result = (numbers[len(numbers)//2-1] + numbers[len(numbers)//2]) / 2)
+            print((numbers[len(numbers)//2-1] + numbers[len(numbers)//2]) / 2)
         else: 
             print(numbers[len(numbers)//2])
 
